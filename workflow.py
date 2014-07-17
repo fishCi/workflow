@@ -3,7 +3,7 @@
 # License: 3-clause BSD License
 # Author:  Massimo Di Pierro <massimo.dipierro@gmail.com>
 # Read-more: https://github.com/mdipierro/workflow
-
+#
 import sys, os, shelve, glob, time, shlex, subprocess, logging, re, optparse
 
 re_line = re.compile('(?P<n>\w+):\s*(?P<p>.+?)\s*(\[(?P<dt>\w+)\]\s*)?:\s*(?P<c>.*)\s*(?P<a>\&)?')
